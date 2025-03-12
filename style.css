@@ -21,12 +21,6 @@ h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* 🌟 Undertekst */
-p {
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-}
-
 /* 🌟 Navigation */
 nav {
     display: flex;
