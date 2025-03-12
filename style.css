@@ -6,76 +6,72 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
 }
 
-/* Header */
-header h1 {
-    background: rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    margin: 0;
-    border-bottom: 3px solid white;
-    font-size: 2.5rem;
+/* Header styling */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-/* Sektioner */
-.content {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+/* Undertekst */
+p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
 }
 
-.intro {
-    font-style: italic;
-    font-size: 1.2rem;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 10px;
-    border-radius: 8px;
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
-/* Undersektioner */
-.section {
-    margin-top: 20px;
-    text-align: left;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.section h2 {
-    color: #ffdb58;
-    font-size: 1.5rem;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    padding: 5px;
-    font-size: 1.1rem;
-}
-
-ul li strong {
-    color: #fff4a3;
-}
-
-/* Tilbage-knap */
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background: #ff3c00;
-    color: white;
+nav a {
     text-decoration: none;
-    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    padding: 12px 18px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
     transition: 0.3s;
 }
 
-.btn:hover {
-    background: #ff1a00;
+nav a:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Knap */
+button {
+    background: #ff8c42;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff3c00;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
